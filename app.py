@@ -1,8 +1,6 @@
-def hello_world();
-return "Hello World"
+# app.py
+def hello_world():
+    return "Hello, World!"
 
-if_name==="_main_":
+if __name__ == "__main__":
     print(hello_world())
-     
-
-     
